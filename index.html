@@ -1,0 +1,72 @@
+<!DOCTYPE html> <!-- This line defines the doct type and specifies to the browser that it is using HTML5-->
+<html lang="en" dir="ltr">
+
+<head>
+  <!--This section contains links to external files used for styling or logic, the document also contains details describing the document to search engines.-->
+  <meta charset="utf-8"><!-- meta tag contains information about the document itself, this can include the document's author or keywords for search engines. It currenty has the charset to utf-8 which encompasses all the Unicode characters.-->
+  <title>ottergram</title>
+
+  <!-- linking the normalize.css file that is externally located outside of the directory-->
+  <link rel="stylesheet" href="https://cdnjs.cloudfare.com/ajax/libs/normailize/3.0.3/normalize.min.css">
+
+
+
+  <!-- The "rel" attribute describes is assigned the value "stylesheet", and the "href" is pointing to the location relative to this html page that the CSS file is located. .  -->
+  <link rel="stylesheet" href="stylesheets/styles.css">
+
+  <!-- The rel tags below are for the icon that is displayed at the tab section. The setup below was copied from the a favicon generator site and adjusted to poiny to "img/" folder.-->
+  <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+  <link rel="manifest" href="img/site.webmanifest">
+  <link rel="mask-icon" href="img/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+
+</head>
+
+<body>
+  <header>
+    <h1 class="logo-text">ottergram</h1>
+  </header>
+
+  <ul class="thumbnail-list">
+    <li class="thumbnail-item">
+      <!-- Anchor tag "<a>" makes elements on the page clickable. The href attribute contains the link to the resource/page that you want to direct the user to. Currently it has been setup to include "#" this currently returns the user to the top of the page.-->
+      <a href="#">
+
+        <!-- The img tags for atrribute references the source/image that is to be displayed.The "alt" attribute contains details of the image that will be shown in place of the image if it fails to load, or is no longer present in the directory referenced.-->
+        <!-- The img tag is does ot wrap other elements, but instead refer to a resource because of this the <img> tags have not been given a closing tag. This makes them self-closing tags (also known as void tags).-->
+        <img src="img/otter1.jpg" alt="Barry the Otter">
+        <span class="thumbnail-title">Barry</span>
+      </a>
+    </li>
+    <li class="thumbnail-item">
+      <a href="#">
+        <img src="img/otter2.jpg" alt="Robin the Otter">
+        <span class="thumbnail-title">Robin</span>
+      </a>
+    </li>
+    <li class="thumbnail-item">
+      <a href="#">
+        <img src="img/otter3.jpg" alt="Maurice the Otter">
+        <span class="thumbnail-title">Maurice</span>
+      </a>
+    </li>
+    <li class="thumbnail-item">
+      <a href="#">
+        <img src="img/otter4.jpg" alt="Lesley the Otter">
+        <span class="thumbnail-title">Lesley</span>
+      </a>
+    </li>
+    <li class="thumbnail-item">
+      <a href="#">
+        <img src="img/otter5.jpg" alt="Barbara the Otter">
+        <span class="thumbnail-title">Barbara</span>
+      </a>
+    </li>
+  </ul>
+
+</body>
+
+</html>
